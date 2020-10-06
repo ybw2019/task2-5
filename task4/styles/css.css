@@ -1,0 +1,57 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    width: 1000px;
+    height: 1000px;
+}
+
+
+
+.bg
+{
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    
+    position: absolute;
+    left:50%;
+    margin-left: -200px;
+    top:50%;
+    margin-top:-100px;
+
+    overflow: hidden;
+}
+
+.yellow_1,.yellow_2
+{
+    background-color:yellow;
+}
+.yellow_1
+{
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid yellow;
+    border-radius: 50px;
+
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.yellow_2
+{
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid yellow;
+    border-radius: 50px;
+
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}

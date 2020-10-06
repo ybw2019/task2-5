@@ -1,0 +1,218 @@
+* {margin: 0; padding: 0;}
+body { background: gray;}
+
+.top
+{
+    height: 50px;
+    background:rgb(104, 100, 100);
+}
+
+.logo>img
+{
+    float: left;
+    padding-left: 60px;
+}
+
+.top .top_menu li
+{
+    float: right;
+    font-size: 14px;
+    margin:14px 20px;
+}
+.top_menu span
+{
+    color: white;
+}
+.top_menu a
+{
+    text-decoration: none;
+}
+.top_menu a:hover span
+{
+    color:orange;
+}
+
+
+.passage1,.passage5
+{
+    float: left;
+    width: 800px;
+    margin: 10px 20px 0 20px;
+    background: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.passage1 h1
+{
+    padding: 30px 0 0 10px;
+}
+.passage1 h2
+{
+    padding: 20px 0 0 10px;
+}
+.passage1 p
+{
+    text-indent: 2em;
+    padding: 10px 0 0 10px;
+    line-height: 2em;
+}
+.passage1 .base1
+{
+    font-weight: bold;
+}
+.passage1 img
+{
+    width: 400px;
+    padding:0 0 0 10px;
+}
+
+
+.passage2 li
+{
+    list-style-type: none;
+    padding: 10px 0 0 60px;
+}
+.base2
+{
+    margin-bottom: 60px;
+}
+
+.space
+{
+    float: left;
+    margin:20px 0 0 40px;
+    width: 300px;
+    border: 1px solid gray;
+}
+.space p
+{
+    text-align: center;
+}
+.space>img
+{
+    padding:0;
+    margin: 0 0 0 64px;
+    width: 200px;
+}
+
+
+.passage3 li
+{
+    list-style-type: none;
+    padding: 10px 0 0 40px;
+    font-weight: bold;
+}
+
+.table
+{
+    padding: 0 0 0 10px;
+    table-layout: fixed;
+    width: 700px;
+}
+.r1
+{
+    background: rgb(51, 46, 46);
+}
+.r1 span
+{
+    color:white;
+}
+.r4
+{
+    background: gray;
+}
+
+
+.side
+{
+    border-left: 4px solid gray;
+    margin: 20px 0 0 20px;
+}
+.side span
+{
+    margin:0 0 10px 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.email
+{
+    margin:14px 0 0 40px;
+}
+.t1
+{
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0 10px 180px;
+}
+.password1
+{
+    margin:0 0 0 72px;
+}
+.password2
+{
+    margin:10px 0 0 40px;
+}
+
+.gender
+{
+    margin:0 0 0 18px;
+}
+.gender_p
+{
+    margin:0 0 0 120px;
+}
+.gender_woman
+{
+    margin:0 0 0 4px;
+}
+.gender_b
+{
+    margin:0 0 0 10px;
+}
+
+.city
+{
+    margin:10px 0 0 120px;
+}
+.city_opt
+{
+    margin: -20px 0 0 170px;
+}
+
+.hobby
+{
+    margin: 10px 0 0 120px;
+}
+.hobby_sec
+{
+    margin: -22px 0 20px 170px;
+}
+
+
+.per_info
+{
+    margin: -10px 0 0 88px;
+}
+.feedback_text
+{
+    margin: -18px 0 0 168px;
+}
+
+.submit
+{
+    table-layout: fixed;
+    width: 300px;
+    margin: 10px 60px;
+    background: rgb(41, 71, 207);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid  rgb(41, 71, 207);
+    border-radius: 10px;
+}
+
+.passage5
+{
+    width: 380px;
+}
